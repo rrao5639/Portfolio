@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #138781;
+  --secondary-color: #f29f67;
+  --highlight-color: #e0b50f;
+  --card-border-radius: 10px;
+}
+
+.project {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.project hr {
+  color: var(--primary-color);
+  width: 400px;
+  margin: 10px auto;
+}
+
+.project h2 {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+#ads {
+  margin: 30px 0;
+}
+
+#ads .card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  background: var(--secondary-color);
+  text-align: center;
+  border-radius: 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.project .card img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover; /* Ensures images cover the area */
+}
+
+.card-detail-badge {
+  background-color: var(--highlight-color);
+  text-align: center;
+  border-radius: 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.card-image-overly {
+  font-size: 20px;
+}
+
+.card-image-overly span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.project .card:hover {
+  background-color: white;
+  border-radius: var(--card-border-radius);
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  transform: scale(1.02); /* Add scale effect */
+  transition: all 0.3s ease;
+}
+
+.ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.ad-btn:hover {
+  background-color: white;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+
+@media (max-width: 600px) {
+  .project {
+    margin-top: 30px;
+  }
+  .project hr {
+    width: 90%; /* Full width on smaller screens */
+  }
+  .project .card {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,24 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* DARK MODE */
+
+#dark {
+  background-color: #414242;
+  color: #f4eee0;
+  opacity: 0.99;
+}
+
+/* ======================= */
+@media (max-width: 600px) {
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
