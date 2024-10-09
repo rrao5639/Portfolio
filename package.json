@@ -14,7 +14,7 @@
     "express": "^4.19.2",
     "nodemailer": "^6.9.14",
     "nodemailer-mailgun-transport": "^2.1.5",
-    "path": "^0.12.7",
-    "react-scripts": "^5.0.1"
+    "path": "^0.12.7"
+
   }
 }
