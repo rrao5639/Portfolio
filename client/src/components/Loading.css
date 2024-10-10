@@ -19,7 +19,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(106, 17, 203, 0.6) 0%, rgba(37, 117, 252, 0.6) 100%);
+    background: linear-gradient(135deg, rgba(198, 173, 223, 0.6) 0%, rgba(127, 148, 197, 0.6) 100%);
     filter: blur(10px); /* Adjust blur level here */
     z-index: -1; /* Behind the text */
 }
