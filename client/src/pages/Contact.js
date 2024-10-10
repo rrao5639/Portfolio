@@ -62,7 +62,7 @@ const Contact = () => {
           <div className="card2 d-flex card border-0 px-4 py-5">
             <h6>
               Contact With
-              <a href="https://www.linkedin.com/in/rahul-undefined-910a332a6" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/rahul-sagar-910a332a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
                 <BsLinkedin color="blue" size={30} className="ms-2" />
               </a>
               <a href="https://github.com/Rahulrs7" target="_blank" rel="noopener noreferrer">
